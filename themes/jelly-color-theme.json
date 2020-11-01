@@ -485,7 +485,11 @@
 
 		"editorSuggestWidget.highlightForeground": "#228a96",
 		"editorSuggestWidget.selectedBackground": "#228a9690",
-		"editorSuggestWidget.border": "#c6b6ee40",
+    "editorSuggestWidget.border": "#c6b6ee40",
+
+    "diffEditor.removedTextBackground": "#b8533540",
+    "diffEditor.insertedTextBackground": "#799d6a30",
+    "diffEditor.diagonalFill": "#3d3a5380",
 
     "list.activeSelectionForeground": "#0a0b12",
 		"list.activeSelectionBackground": "#228a96",
