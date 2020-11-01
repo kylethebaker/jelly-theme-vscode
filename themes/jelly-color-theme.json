@@ -157,7 +157,7 @@
       ],
       "settings": {
         "fontStyle": "",
-        "foreground": "#6ba77f"
+        "foreground": "#8197bf"
       }
     },
     {
@@ -171,7 +171,6 @@
       "name": "Invalid",
       "scope": "invalid",
       "settings": {
-        "background": "#664e4d",
         "foreground": "#cf433e",
         "fontStyle": ""
       }
@@ -180,7 +179,6 @@
       "name": "Invalid deprecated",
       "scope": "invalid.deprecated",
       "settings": {
-        "background": "#664e4d",
         "foreground": "#cf433e"
       }
     },
@@ -266,7 +264,7 @@
       "name": "Function argument",
       "scope": "meta.property-name support.type.property-name",
       "settings": {
-        "fontStyle": "normal"
+        "fontStyle": ""
       }
     },
     {
@@ -299,7 +297,7 @@
       ],
       "settings": {
         "foreground": "#228a96",
-        "fontStyle": "normal"
+        "fontStyle": ""
       }
     },
     {
@@ -307,7 +305,7 @@
       "scope": "variable.other",
       "settings": {
         "foreground": "#bed0e2",
-        "fontStyle": "normal"
+        "fontStyle": ""
       }
     },
     {
@@ -436,7 +434,32 @@
       "settings": {
         "foreground": "#aeb9c4"
       }
-    }
+    },
+    {
+      "name": "Type parameters",
+      "scope": "meta.type.annotation",
+      "settings": {
+        "foreground": "#8197bf"
+      }
+    },
+    {
+      "name": "Return type",
+      "scope": "meta.return.type",
+      "settings": {
+        "foreground": "#8197bf"
+      }
+    },
+    {
+      "name": "Async/Await",
+      "scope": [
+        "storage.modifier.async",
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#ADDBBC"
+      }
+    },
+
   ],
   "colors": {
 		"foreground": "#c5c8c6",
@@ -473,7 +496,6 @@
 		"editorWhitespace.foreground": "#232a32",
 		"editorCursor.foreground": "#ffffff",
 
-		// Lighter bg
 		"sideBar.background": "#121421",
     "sideBar.foreground": "#c5c8c6",
     "sideBarSectionHeader.background": "#3d3a53",
@@ -494,7 +516,9 @@
 
     "statusBar.background": "#3d3a53",
 		"statusBar.foreground": "#ffffff",
-		"statusBar.noFolderBackground": "#6ba77f",
+		"statusBar.noFolderBackground": "#28a1af",
+		"statusBar.debuggingBackground": "#ffb964",
+		"statusBar.debuggingForeground": "#121421",
 
     "editorGroupHeader.tabsBackground": "#121421",
     "tab.inactiveBackground": "#121421",
