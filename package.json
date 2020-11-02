@@ -1,6 +1,7 @@
 {
 	"name": "jelly-theme",
 	"displayName": "Jelly Theme",
+	"version": "0.0.3",
 	"publisher": "kylethebaker",
 	"description": "Dark purple for a dark worldl",
 	"repository": {
@@ -10,10 +11,9 @@
 	"bugs": {
 		"url": "https://github.com/kylethebaker/jelly-theme-vscode/issues"
 	},
-	"version": "0.0.2",
 	"galleryBanner": {
 		"color": "#0a0b12",
-		"theme": "light"
+		"theme": "dark"
 	},
 	"icon": "images/icon.png",
 	"scripts": {
