@@ -1,21 +1,30 @@
 {
-    "name": "jelly-theme",
-    "displayName": "jelly-theme",
-    "description": "",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.50.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "jelly",
-                "uiTheme": "vs-dark",
-                "path": "./themes/jelly-color-theme.json"
-            }
-        ]
-    }
+  "name": "jelly-theme",
+  "displayName": "jelly-theme",
+  "publisher": "kylethebaker",
+  "description": "",
+  "repository": "https://github.com/kylethebaker/jelly-theme-vscode",
+  "version": "0.0.1",
+  "galleryBanner": {
+    "color": "#0a0b12",
+    "theme": "dark"
+  },
+  "scripts": {
+    "build": "vsce package"
+  },
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "jelly",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jelly-color-theme.json"
+      }
+    ]
+  }
 }
